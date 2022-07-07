@@ -1,0 +1,46 @@
+
+modLoader="javafml"
+
+loaderVersion="[41,)"
+
+license="MIT License"
+
+[[mods]]
+
+modId="divinemod"
+
+version="1.19-1.0"
+
+displayName="Divine Mod Attempt"
+
+logoFile="examplemod.png"
+
+credits="Credit goes to TechnoVision & Kaupenjoe (youtubers) for great guides!"
+
+authors="Divine Dream"
+
+
+
+description='''
+Testing a mod, might not work who knows fuck it we ball.
+'''
+
+[[dependencies.DivineModAttempt]]
+
+    modId="divinemod"
+
+    mandatory=true
+
+    versionRange="[41,)"
+
+    ordering="NONE"
+
+    side="BOTH"
+
+[[dependencies.DivineModAttempt]]
+    modId="minecraft"
+    mandatory=true
+
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
