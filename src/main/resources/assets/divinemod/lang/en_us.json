@@ -1,0 +1,10 @@
+{
+  "item.divinemod.zircon": "Zircon",
+  "item.divinemod.raw_zircon": "Raw Zircon",
+
+  "block.divinemod.zircon_block": "Block of Zircon",
+  "block.divinemod.zircon_ore": "Zircon Ore",
+  "block.divinemod.deepslate_zircon_ore": "Deepslate Zircon Ore",
+
+  "itemGroup.divinemodtab": "Divine Mod Items"
+}
