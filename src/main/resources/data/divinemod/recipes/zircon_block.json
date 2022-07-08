@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "divinemod:zircon"
+    }
+  },
+  "result": {
+    "item": "divinemod:zircon_block"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 32.5,
+  "group": "zircon",
+  "ingredient": {
+    "item": "divinemod:raw_zircon"
+  },
+  "result": "divinemod:zircon"
+}
