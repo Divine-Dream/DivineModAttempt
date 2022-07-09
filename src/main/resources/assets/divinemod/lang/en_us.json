@@ -6,5 +6,11 @@
   "block.divinemod.zircon_ore": "Zircon Ore",
   "block.divinemod.deepslate_zircon_ore": "Deepslate Zircon Ore",
 
+  "item.divinemod.zircon_sword": "Zircon Sword",
+  "item.divinemod.zircon_pickaxe": "Zircon Pickaxe",
+  "item.divinemod.zircon_axe": "Zircon Axe",
+  "item.divinemod.zircon_shovel": "Zircon Shovel",
+  "item.divinemod.zircon_hoe": "Zircon Hoe",
+
   "itemGroup.divinemodtab": "Divine Mod Items"
 }

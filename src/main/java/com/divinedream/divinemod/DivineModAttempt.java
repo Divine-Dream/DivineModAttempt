@@ -35,4 +35,3 @@ public class DivineModAttempt {
             public static void onClientSetup(FMLClientSetupEvent event) { }
     }
 }
-//need comment here for an update
