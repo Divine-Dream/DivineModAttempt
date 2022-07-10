@@ -1,6 +1,7 @@
 package com.divinedream.divinemod.item;
 
 import com.divinedream.divinemod.DivineModAttempt;
+import com.divinedream.divinemod.item.custom.ModArmorItem;
 import com.divinedream.divinemod.item.custom.WitherSwordItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
@@ -47,7 +48,7 @@ public class ModItems {
 
     //zircon helmet
     public static final RegistryObject<Item> ZIRCON_HELMET = ITEMS.register("zircon_helmet",
-            () -> new ArmorItem(ModArmorMaterials.ZIRCON, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.DIVINEMOD_TAB)));
+            () -> new ModArmorItem(ModArmorMaterials.ZIRCON, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.DIVINEMOD_TAB)));
     //zircon chestplate
     public static final RegistryObject<Item> ZIRCON_CHESTPLATE = ITEMS.register("zircon_chestplate",
             () -> new ArmorItem(ModArmorMaterials.ZIRCON, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModeTab.DIVINEMOD_TAB)));
