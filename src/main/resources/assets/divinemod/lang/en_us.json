@@ -12,5 +12,10 @@
   "item.divinemod.zircon_shovel": "Zircon Shovel",
   "item.divinemod.zircon_hoe": "Zircon Hoe",
 
+  "item.divinemod.zircon_helmet": "Zircon Helmet",
+  "item.divinemod.zircon_chestplate": "Zircon Chestplate",
+  "item.divinemod.zircon_leggings": "Zircon Leggings",
+  "item.divinemod.zircon_boots": "Zircon Boots",
+
   "itemGroup.divinemodtab": "Divine Mod Items"
 }

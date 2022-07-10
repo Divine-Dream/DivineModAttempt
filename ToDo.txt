@@ -1,0 +1,14 @@
+Things I would like to finish before the mod is ready for distribution.
+Symbol * means DONE
+
+*1. create full armor set*
+
+
+2. Zircon Armor Set Effect
+3. Make The Hoe Useful Somehow (probably golden apples or something)
+4. Implement World Generation For The Ore
+5. Make Zircon Ore and Deepslate Zircon Ore Have a Chance At Dropping Useful Items IN ADDITION To Zircon
+    Maybe Elytras and Rockets
+6. Increase End Dragon's Health To 500+ Hearts Somehow (1,000 health points) (1hp = 0.5 hearts)
+7. Add Dangers to The End Fight (such as custom mobs or even extra mobs like a warden)
+8. Add a Boot Effect To Turn Lava Into A More Tolerable Block, Such as Magma, Or Even Obsidian.
