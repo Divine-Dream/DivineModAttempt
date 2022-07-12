@@ -1,6 +1,7 @@
 package com.divinedream.divinemod.item;
 
 import com.divinedream.divinemod.DivineModAttempt;
+import com.divinedream.divinemod.item.custom.EightBallItem;
 import com.divinedream.divinemod.item.custom.ModArmorItem;
 import com.divinedream.divinemod.item.custom.WitherSwordItem;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -13,6 +14,10 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, DivineModAttempt.MOD_ID);
+
+    //eight ball
+    public static final RegistryObject<Item> EIGHT_BALL = ITEMS.register("eight_ball",
+            () -> new EightBallItem(new Item.Properties().tab(ModCreativeModeTab.DIVINEMOD_TAB).stacksTo(1)));
 
     //cooked zircon
     public static final RegistryObject<Item> ZIRCON = ITEMS.register("zircon",
@@ -42,7 +47,7 @@ public class ModItems {
             () -> new ShovelItem(ModTiers.ZIRCON, 0, 1f, new Item.Properties().tab(ModCreativeModeTab.DIVINEMOD_TAB)));
     //zircon hoe
     public static final RegistryObject<Item> ZIRCON_HOE = ITEMS.register("zircon_hoe",
-            () -> new ShovelItem(ModTiers.ZIRCON, 0, 0f, new Item.Properties().tab(ModCreativeModeTab.DIVINEMOD_TAB)));
+            () -> new HoeItem(ModTiers.ZIRCON, 0, 0f, new Item.Properties().tab(ModCreativeModeTab.DIVINEMOD_TAB)));
 
     //Zircon Armor
 

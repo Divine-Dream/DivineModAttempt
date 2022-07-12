@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:lava_bucket"
+    },
+    "X": {
+      "item": "divinemod:zircon"
+    }
+  },
+  "pattern": [
+    "#",
+    "X"
+
+  ],
+  "result": {
+    "item": "divinemod:fire_resistance_block"
+  }
+}

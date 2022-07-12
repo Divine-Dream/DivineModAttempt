@@ -1,46 +1,30 @@
+==Introduction==
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+Divine Dream's first ever mod.
+I've never attempted at creating a mod before, just testing things out and getting
+a feel for the basics.
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
+==The Mod==
 
-Setup Process:
-==============================
+"divinemod" was just the name I decided to give it when I didn't know I'd be trying to actually
+make it into something.
+This mod adds in new ore called "zircon" along with an entirely new SET of armor and tools.
+There are custom effects within this mod involving the tools and the armor alike.
+For simplicity of the mod, all recipes will be based around zircon in some way.
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+==Divine Dream==
 
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `gradlew genEclipseRuns` (`./gradlew genEclipseRuns` if you are on Mac/Linux)
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
+My name is Brock.
 
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `gradlew genIntellijRuns` (`./gradlew genIntellijRuns` if you are on Mac/Linux)
-4. Refresh the Gradle Project in IDEA if required.
+My Discord is: Divine Dream#0001
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+If this mod does well, I fully intend on making another.
+For any suggestions message me on discord and the ideas that stick out most will most
+likely end up in a mod.
 
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+==Updates==
+All updates to the mod can be found on my github:
+https://github.com/Divine-Dream
 
-Additional Resources: 
-=========================
-Community Documentation: https://mcforge.readthedocs.io/en/latest/gettingstarted/  
-LexManos' Install Video: https://www.youtube.com/watch?v=8VEdtQLuLO0  
-Forge Forum: https://forums.minecraftforge.net/  
-Forge Discord: https://discord.gg/UvedJ9m  
+Until I figure out more about github and jar files and shit, all updates to this mod
+will be sent out via discord.

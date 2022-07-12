@@ -1,6 +1,8 @@
 package com.divinedream.divinemod.block;
 
 import com.divinedream.divinemod.DivineModAttempt;
+import com.divinedream.divinemod.block.custom.FireResistanceBlock;
+import com.divinedream.divinemod.block.custom.ZirconLampBlock;
 import com.divinedream.divinemod.item.ModCreativeModeTab;
 import com.divinedream.divinemod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -38,6 +40,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> ZIRCON_BLOCK = registerBlock("zircon_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).
                     strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.DIVINEMOD_TAB);
+
+    //creates Fire Resistance Block and displays it in divinemod creative mode tab.
+    public static final RegistryObject<Block> FIRE_RESISTANCE_BLOCK = registerBlock("fire_resistance_block",
+            () -> new FireResistanceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.DIVINEMOD_TAB);
+
+    //creates Fire Resistance Block and displays it in divinemod creative mode tab.
+    public static final RegistryObject<Block> ZIRCON_LAMP = registerBlock("zircon_lamp",
+            () -> new ZirconLampBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(ZirconLampBlock.LIT) ? 35 : 0)), ModCreativeModeTab.DIVINEMOD_TAB);
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

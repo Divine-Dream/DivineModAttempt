@@ -1,10 +1,14 @@
 {
+  "item.divinemod.eight_ball": "Eight Ball",
+
   "item.divinemod.zircon": "Zircon",
   "item.divinemod.raw_zircon": "Raw Zircon",
 
   "block.divinemod.zircon_block": "Block of Zircon",
   "block.divinemod.zircon_ore": "Zircon Ore",
   "block.divinemod.deepslate_zircon_ore": "Deepslate Zircon Ore",
+  "block.divinemod.fire_resistance_block": "Fire Resistance Block",
+  "block.divinemod.zircon_lamp": "Zircon Lamp",
 
   "item.divinemod.zircon_sword": "Zircon Sword",
   "item.divinemod.zircon_pickaxe": "Zircon Pickaxe",

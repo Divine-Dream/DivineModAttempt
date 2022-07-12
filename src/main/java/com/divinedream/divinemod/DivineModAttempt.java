@@ -22,6 +22,7 @@ public class DivineModAttempt {
 
             ModItems.register(modEventBus);
             ModBlocks.register(modEventBus);
+
             modEventBus.addListener(this::commonSetup);
 
             MinecraftForge.EVENT_BUS.register(this);
